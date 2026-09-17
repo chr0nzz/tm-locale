@@ -1,0 +1,7 @@
+escapes
+newlines
+nplurals
+printf
+pythonbraceformat
+variables
+xmltags
