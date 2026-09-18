@@ -10,7 +10,6 @@ Translator resources for [Traefik Manager](https://github.com/chr0nzz/traefik-ma
 | [GLOSSARY.md](GLOSSARY.md) | Product terms and their definitions |
 | [DO-NOT-TRANSLATE.md](DO-NOT-TRANSLATE.md) | Literals that stay English |
 | [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md) | The reviewer for each language |
-| [scripts/](scripts) | The first standalone helpers, kept for reference. Each application now runs its own tooling, listed below |
 
 ## Where the catalogues live
 
