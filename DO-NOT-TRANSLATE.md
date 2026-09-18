@@ -20,7 +20,7 @@ Hostnames, domains, URLs, file paths, container names, network names, environmen
 
 | String | Why |
 |---|---|
-| `DELETE` typed into a confirmation box | The application compares it letter for letter |
+| The name typed into a delete confirmation | It is the route, service, middleware or certificate being deleted, compared letter for letter |
 | Anything shown in a code block or monospace | It is copied into a terminal or a config file as is |
 | API field names in error messages | They match the JSON the API returns |
 
