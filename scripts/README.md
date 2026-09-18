@@ -1,6 +1,6 @@
 # Scripts
 
-Shared by both application repositories. They run from the repository root, or take its path as the first argument.
+The first standalone helpers, kept for reference. The web app now extracts and checks its catalogues with its own [`scripts/i18n/`](https://github.com/chr0nzz/traefik-manager/tree/main/scripts/i18n), which reads JavaScript with a real parser and runs stricter checks. These run from a repository root, or take its path as the first argument.
 
 | Script | Does |
 |---|---|
