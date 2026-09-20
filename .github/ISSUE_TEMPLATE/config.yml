@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Translate on Weblate
+    url: https://hosted.weblate.org/projects/traefik-manager/web-app/
+    about: Translating needs no issue. Pick a language and start; an account is needed to write, not to read.
+  - name: Translator handbook
+    url: https://github.com/chr0nzz/tm-locale/blob/main/HANDBOOK.md
+    about: How a string gets from English to a release, the states in Weblate, and what the checks reject.
+  - name: Bug in the application
+    url: https://github.com/chr0nzz/traefik-manager/issues/new/choose
+    about: Something broken in Traefik Manager itself belongs on its own tracker, not here.
+  - name: Question about the project
+    url: https://github.com/chr0nzz/traefik-manager/discussions
+    about: Setup help and general questions are answered in the Traefik Manager discussions.

@@ -69,11 +69,19 @@ Every pull request runs them, and a translation that fails one is not merged.
 
 Traefik Manager also escapes every translation when it renders the page, so text from a catalogue is always shown as text.
 
-## Language requests
+## Asking for something
 
-Language requests and questions about translation belong in this repository. Bugs in the application belong on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues).
+Translating itself needs no issue: pick a language on Weblate and start. Everything else has a form.
+
+| You want to | Open |
+|---|---|
+| Have a language opened | [Language request](https://github.com/chr0nzz/tm-locale/issues/new?template=language-request.yml) |
+| Review a language | [Become a language reviewer](https://github.com/chr0nzz/tm-locale/issues/new?template=reviewer-application.yml) |
+| Report a wrong or unclear string | [Wrong or unclear translation](https://github.com/chr0nzz/tm-locale/issues/new?template=translation-issue.yml) |
 
 Anyone can translate any language. A language is enabled in a release once it has a reviewer, listed in [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md).
+
+Bugs in the application belong on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues), not here. If the English source string is itself wrong or ambiguous, say so in a translation issue: that is fixed once and improves every language.
 
 ## License
 

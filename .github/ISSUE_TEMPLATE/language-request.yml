@@ -1,0 +1,50 @@
+name: Language request
+description: Ask for a language to be opened for translation
+title: "[language] "
+labels: ["language request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Any language can be added. You do not need to commit to finishing it, and you do not need to be a reviewer.
+        Check [LANGUAGE-REVIEWERS.md](https://github.com/chr0nzz/tm-locale/blob/main/LANGUAGE-REVIEWERS.md) first - the language may already be open.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language in English, and in its own name if you like.
+      placeholder: "Portuguese (Brazil), português do Brasil"
+    validations:
+      required: true
+
+  - type: input
+    id: code
+    attributes:
+      label: Language code
+      description: The code as Weblate writes it, for example pt_BR, nl, zh_Hant. Leave blank if you are unsure.
+      placeholder: "pt_BR"
+
+  - type: textarea
+    id: plural
+    attributes:
+      label: Anything unusual about this language
+      description: Plural rules, right-to-left script, a regional variant that matters, or a term that has no accepted translation. Leave blank if nothing comes to mind.
+
+  - type: dropdown
+    id: intent
+    attributes:
+      label: Will you be translating it yourself?
+      options:
+        - Yes, I plan to translate it
+        - Some of it
+        - "No, I am asking on behalf of someone else"
+    validations:
+      required: true
+
+  - type: input
+    id: weblate
+    attributes:
+      label: Your Weblate username
+      description: Only needed if you plan to translate. Leave blank otherwise.
+      placeholder: "username"

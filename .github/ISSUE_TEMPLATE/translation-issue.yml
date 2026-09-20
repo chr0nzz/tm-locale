@@ -1,0 +1,57 @@
+name: Wrong or unclear translation
+description: A string reads wrong, means something else, or does not fit
+title: "[translation] "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a translation you can fix yourself, editing it on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) is faster than an issue.
+        Use this when the fix needs discussion, when the same term is translated two ways, or when the English source itself is the problem.
+
+        Something broken in the application rather than its wording belongs on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues).
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: "French"
+    validations:
+      required: true
+
+  - type: textarea
+    id: string
+    attributes:
+      label: The string
+      description: The English text and the translation as it appears now. A screenshot of where it shows up helps.
+      placeholder: |
+        English: Delete this route?
+        French: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong with it
+      description: Wrong meaning, wrong register, too long for the button, inconsistent with the glossary, or unclear English.
+    validations:
+      required: true
+
+  - type: input
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: Leave blank if you are not sure, reporting it is still useful.
+
+  - type: dropdown
+    id: source_bug
+    attributes:
+      label: Is the English source itself wrong or ambiguous?
+      description: If so this is fixed in the application repository and improves every language at once.
+      options:
+        - "No, only the translation"
+        - "Yes, the English is unclear or wrong"
+        - Not sure
+    validations:
+      required: true

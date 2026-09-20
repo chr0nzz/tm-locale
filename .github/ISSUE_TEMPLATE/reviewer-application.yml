@@ -1,0 +1,58 @@
+name: Become a language reviewer
+description: Take the reviewer role for one language
+title: "[reviewer] "
+labels: ["reviewer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A reviewer checks what everyone else writes in one language. A language is only enabled in a release once it has one, so this is the role that decides whether a language ships.
+
+        What it involves, and why it is taken seriously, is in [LANGUAGE-REVIEWERS.md](https://github.com/chr0nzz/tm-locale/blob/main/LANGUAGE-REVIEWERS.md).
+        Traefik Manager deletes routers and rewrites live proxy configuration: a mistranslated confirmation button is a destructive bug, not a typo.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: "German"
+    validations:
+      required: true
+
+  - type: input
+    id: weblate
+    attributes:
+      label: Your Weblate username
+      placeholder: "username"
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: Your GitHub handle
+      placeholder: "@octocat"
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background with this language
+      description: Native speaker, long-time user, professional translator, all fine. Say how you use Traefik Manager too, since context matters more than fluency here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contributions
+    attributes:
+      label: What you have translated so far
+      description: Translating a meaningful part of the language first is the usual route to the role. Link to your Weblate profile or name the strings you worked on.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: The role
+      options:
+        - label: I have read LANGUAGE-REVIEWERS.md and accept that the role is revocable
+          required: true
+        - label: I will say so if I step back, rather than going quiet
+          required: true
