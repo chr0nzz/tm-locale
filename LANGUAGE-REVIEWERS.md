@@ -10,6 +10,8 @@ Anyone can translate any language, at any time. Each language also has one named
 | Chinese (Simplified) | zh-Hans | unassigned | | |
 | Russian | ru | unassigned | | |
 
+All five are open for translation on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) now, and any other language is added on request. None has a reviewer yet, so none is enabled in a release yet.
+
 This is the Reviewer permission in Weblate, held for one language.
 
 ## Becoming a reviewer

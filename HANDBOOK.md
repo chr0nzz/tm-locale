@@ -4,8 +4,8 @@ Traefik Manager edits live reverse proxy configuration. A wrong translation on a
 
 ## Joining
 
-1. Create a Weblate account and open the Traefik Manager project. Reading the translations needs no account.
-2. Pick a language and start translating or suggesting.
+1. Create a Weblate account and open [the Traefik Manager project](https://hosted.weblate.org/projects/traefik-manager/). Reading the translations needs no account.
+2. Pick a language and start translating or suggesting. A language that is not listed yet is added on request, in an issue here.
 3. Read [GLOSSARY.md](GLOSSARY.md) and [DO-NOT-TRANSLATE.md](DO-NOT-TRANSLATE.md) first.
 
 Anyone can translate any language, at any time. Reviewing is a separate role, described in [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md).

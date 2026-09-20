@@ -28,16 +28,28 @@ Extraction and checks live next to the catalogues, so they change with the code 
 
 | Surface | Tooling | Commands |
 |---|---|---|
-| Web app | [`scripts/i18n/`](https://github.com/chr0nzz/traefik-manager/tree/main/scripts/i18n) | `make i18n-extract` rebuilds `messages.pot` and every catalogue, `make i18n-check` runs every check CI runs |
+| Web app | [`scripts/i18n/`](https://github.com/chr0nzz/traefik-manager/tree/dev-1.15.0/scripts/i18n) | `make i18n-extract` rebuilds `messages.pot` and every catalogue, `make i18n-check` runs every check CI runs |
 | Mobile app | Not started | Added with the mobile release that ships translations |
 
 ## How translation happens
 
 Translation happens on Weblate, not by editing files in this repository. One Weblate project covers both applications and opens a pull request against each one.
 
-Weblate project: linked here once it exists.
+**Weblate project: [hosted.weblate.org/projects/traefik-manager](https://hosted.weblate.org/projects/traefik-manager/)**, hosted free under the Libre plan. The web app is the [`web-app`](https://hosted.weblate.org/projects/traefik-manager/web-app/) component; the mobile app joins the same project when it ships translations.
 
 A translation reaches a release once three things hold: it is marked translated rather than **Needs editing**, the language reviewer approved it, and the pull request passed the checks below.
+
+## Where things stand
+
+| | |
+|---|---|
+| Strings to translate | 3,334 in the web app |
+| Languages open now | German, French, Spanish, Chinese (Simplified), Russian, and any language you ask for |
+| Translated so far | Nothing yet, every language starts at 0% |
+| First release with translations | v1.15.0 |
+| Reviewers | None yet, see [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md) |
+
+Weblate follows the `dev-1.15.0` branch until v1.15.0 is released, then `main`.
 
 ## What the checks reject
 
