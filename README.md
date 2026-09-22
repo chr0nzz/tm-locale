@@ -78,10 +78,11 @@ Translating itself needs no issue: pick a language on Weblate and start. Everyth
 | Have a language opened | [Language request](https://github.com/chr0nzz/tm-locale/issues/new?template=language-request.yml) |
 | Review a language | [Become a language reviewer](https://github.com/chr0nzz/tm-locale/issues/new?template=reviewer-application.yml) |
 | Report a wrong or unclear string | [Wrong or unclear translation](https://github.com/chr0nzz/tm-locale/issues/new?template=translation-issue.yml) |
+| Ask something, or meet the other translators | [Join the Discord](https://discord.gg/a6NKyJsfc) |
 
 Anyone can translate any language. A language is enabled in a release once it has a reviewer, listed in [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md).
 
-For anything not worth an issue, ask on the [Discord](https://discord.gg/a6NKyJsfc).
+Requests and questions are welcome in the [Discord](https://discord.gg/a6NKyJsfc) too, and you can ask for a language there rather than opening a form. Use a form when it should be tracked.
 
 Bugs in the application belong on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues), not here. If the English source string is itself wrong or ambiguous, say so in a translation issue: that is fixed once and improves every language.
 

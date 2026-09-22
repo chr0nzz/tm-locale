@@ -11,6 +11,8 @@ body:
         What it involves, and why it is taken seriously, is in [LANGUAGE-REVIEWERS.md](https://github.com/chr0nzz/tm-locale/blob/main/LANGUAGE-REVIEWERS.md).
         Traefik Manager deletes routers and rewrites live proxy configuration: a mistranslated confirmation button is a destructive bug, not a typo.
 
+        If you would rather ask about the role before applying, the [Discord](https://discord.gg/a6NKyJsfc) has the current reviewers in it.
+
   - type: input
     id: language
     attributes:
