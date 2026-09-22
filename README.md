@@ -81,6 +81,8 @@ Translating itself needs no issue: pick a language on Weblate and start. Everyth
 
 Anyone can translate any language. A language is enabled in a release once it has a reviewer, listed in [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md).
 
+For anything not worth an issue, ask on the [Discord](https://discord.gg/a6NKyJsfc).
+
 Bugs in the application belong on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues), not here. If the English source string is itself wrong or ambiguous, say so in a translation issue: that is fixed once and improves every language.
 
 ## License
