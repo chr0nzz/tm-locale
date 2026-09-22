@@ -43,13 +43,13 @@ A translation reaches a release once three things hold: it is marked translated 
 
 | | |
 |---|---|
-| Strings to translate | 3,334 in the web app |
+| Strings to translate | 3,366 in the web app |
 | Languages open now | German, French, Spanish, Chinese (Simplified), Russian, and any language you ask for |
-| Translated so far | Nothing yet, every language starts at 0% |
+| Translated so far | Spanish and French have started, every other language is at 0% |
 | First release with translations | v1.15.0 |
 | Reviewers | None yet, see [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md) |
 
-Weblate follows the `dev-1.15.0` branch until v1.15.0 is released, then `main`.
+Weblate follows the `dev` branch until v1.15.0 is released, then `main`.
 
 ## What the checks reject
 
