@@ -11,7 +11,7 @@ body:
 
         Something broken in the application rather than its wording belongs on the [Traefik Manager tracker](https://github.com/chr0nzz/traefik-manager/issues).
 
-        For a quick second opinion on wording, the [Discord](https://discord.gg/a6NKyJsfc) is usually faster than an issue.
+        For a quick second opinion on wording, the [Discord](https://discord.gg/vRQCMrrjtz) is usually faster than an issue.
 
   - type: input
     id: language

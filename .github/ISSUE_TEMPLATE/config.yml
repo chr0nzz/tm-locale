@@ -4,7 +4,7 @@ contact_links:
     url: https://hosted.weblate.org/projects/traefik-manager/web-app/
     about: Translating needs no issue. Pick a language and start; an account is needed to write, not to read.
   - name: Join the Discord
-    url: https://discord.gg/a6NKyJsfc
+    url: https://discord.gg/vRQCMrrjtz
     about: Ask a question, request a language, or find the other translators and reviewers. None of that needs an issue first.
   - name: Translator handbook
     url: https://github.com/chr0nzz/tm-locale/blob/main/HANDBOOK.md

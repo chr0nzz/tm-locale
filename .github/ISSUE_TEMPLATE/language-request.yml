@@ -9,7 +9,7 @@ body:
         Any language can be added. You do not need to commit to finishing it, and you do not need to be a reviewer.
         Check [LANGUAGE-REVIEWERS.md](https://github.com/chr0nzz/tm-locale/blob/main/LANGUAGE-REVIEWERS.md) first - the language may already be open.
 
-        You can also ask in the [Discord](https://discord.gg/a6NKyJsfc), where the other translators are. Opening this form is the surest way to have it tracked.
+        You can also ask in the [Discord](https://discord.gg/vRQCMrrjtz), where the other translators are. Opening this form is the surest way to have it tracked.
 
   - type: input
     id: language
