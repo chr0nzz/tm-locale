@@ -9,8 +9,12 @@ Anyone can translate any language, at any time. Each language also has one named
 | Spanish | es | unassigned | | |
 | Chinese (Simplified) | zh-Hans | unassigned | | |
 | Russian | ru | unassigned | | |
+| Dutch | nl | unassigned | | |
+| Czech | cs | unassigned | | |
 
-All five are open for translation on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) now, and any other language is added on request. None has a reviewer yet, so none is enabled in a release yet.
+All seven are open for translation on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) now, and any other language is added on request. None has a reviewer yet, so none is enabled in a release yet.
+
+English (United Kingdom) and English (United States) need no reviewer: they only change the spelling of the Canadian English source, and the web app's tooling fills them in.
 
 This is the Reviewer permission in Weblate, held for one language.
 

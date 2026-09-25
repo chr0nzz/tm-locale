@@ -28,7 +28,7 @@ Extraction and checks live next to the catalogues, so they change with the code 
 
 | Surface | Tooling | Commands |
 |---|---|---|
-| Web app | [`scripts/i18n/`](https://github.com/chr0nzz/traefik-manager/tree/dev-1.15.0/scripts/i18n) | `make i18n-extract` rebuilds `messages.pot` and every catalogue, `make i18n-check` runs every check CI runs |
+| Web app | [`scripts/i18n/`](https://github.com/chr0nzz/traefik-manager/tree/dev/scripts/i18n) | `make i18n-extract` rebuilds `messages.pot` and every catalogue, `make i18n-check` runs every check CI runs |
 | Mobile app | Not started | Added with the mobile release that ships translations |
 
 ## How translation happens
@@ -43,9 +43,10 @@ A translation reaches a release once three things hold: it is marked translated 
 
 | | |
 |---|---|
-| Strings to translate | 3,366 in the web app |
-| Languages open now | German, French, Spanish, Chinese (Simplified), Russian, and any language you ask for |
-| Translated so far | Spanish and French have started, every other language is at 0% |
+| Strings to translate | 3,386 in the web app |
+| Languages open now | German, French, Spanish, Chinese (Simplified), Russian, Dutch, Czech, and any language you ask for |
+| Translated so far | French is past 40%, Spanish and German have started, every other language is at 0% |
+| English variants | The English source is Canadian English. English (United Kingdom) and English (United States) hold only the strings whose spelling differs and are kept up to date automatically, so their low percentage is expected. Both ship in v1.15.0 |
 | First release with translations | v1.15.0 |
 | Reviewers | None yet, see [LANGUAGE-REVIEWERS.md](LANGUAGE-REVIEWERS.md) |
 
