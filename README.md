@@ -43,7 +43,7 @@ A translation reaches a release once three things hold: it is marked translated 
 
 | | |
 |---|---|
-| Strings to translate | 3,386 in the web app |
+| Strings to translate | 3,384 in the web app |
 | Languages open now | German, French, Spanish, Chinese (Simplified), Russian, Dutch, Czech, and any language you ask for |
 | Translated so far | French is past 40%, Spanish and German have started, every other language is at 0% |
 | English variants | The English source is Canadian English. English (United Kingdom) and English (United States) hold only the strings whose spelling differs and are kept up to date automatically, so their low percentage is expected. Both ship in v1.15.0 |
