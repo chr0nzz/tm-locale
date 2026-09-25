@@ -35,6 +35,13 @@ body:
       label: Your GitHub handle
       placeholder: "@octocat"
 
+  - type: input
+    id: discord
+    attributes:
+      label: Your Discord username
+      description: Optional. Reviewers get the Translation Reviewer role and their language tag on the Discord, so other translators can find them.
+      placeholder: "username"
+
   - type: textarea
     id: background
     attributes:

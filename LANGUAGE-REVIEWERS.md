@@ -2,15 +2,15 @@
 
 Anyone can translate any language, at any time. Each language also has one named reviewer, who checks what everyone else writes, so nothing ships that nobody reviewed. A language needs a reviewer before it is enabled in a release.
 
-| Language | Code | Reviewer | GitHub | Added |
-|---|---|---|---|---|
-| German | de | unassigned | | |
-| French | fr | unassigned | | |
-| Spanish | es | unassigned | | |
-| Chinese (Simplified) | zh-Hans | unassigned | | |
-| Russian | ru | unassigned | | |
-| Dutch | nl | unassigned | | |
-| Czech | cs | unassigned | | |
+| Language | Code | Reviewer | GitHub | Discord | Added |
+|---|---|---|---|---|---|
+| German | de | unassigned | | | |
+| French | fr | unassigned | | | |
+| Spanish | es | unassigned | | | |
+| Chinese (Simplified) | zh-Hans | unassigned | | | |
+| Russian | ru | unassigned | | | |
+| Dutch | nl | unassigned | | | |
+| Czech | cs | unassigned | | | |
 
 All seven are open for translation on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) now, and any other language is added on request. None has a reviewer yet, so none is enabled in a release yet.
 
@@ -20,7 +20,7 @@ This is the Reviewer permission in Weblate, held for one language.
 
 ## Becoming a reviewer
 
-A request is an issue in this repository naming the language, the Weblate username and the GitHub handle. Translating a meaningful part of the language first is the usual route.
+A request is an issue in this repository naming the language, the Weblate username, the GitHub handle and, if you are on the [Discord](https://discord.gg/vRQCMrrjtz), your Discord username. Reviewers get the Translation Reviewer role and their language tag there, so other translators can find them. Translating a meaningful part of the language first is the usual route.
 
 ## What a reviewer does
 
