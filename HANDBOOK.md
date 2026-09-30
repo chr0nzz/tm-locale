@@ -29,11 +29,11 @@ Translations ship with the next release, not the moment they are saved. A typo f
 | State | Means |
 |---|---|
 | Untranslated | No translation yet, the application falls back to English |
-| Needs editing | The English source changed, or a machine pre-filled the string. The old translation is kept but not used until it is confirmed |
+| Needs editing | The English source changed. The old translation is kept but not used until it is confirmed |
 | Translated | Used in the application |
 | Approved | Checked by the language reviewer |
 
-Machine pre-translation seeds a language and is always marked **Needs editing**. It is a draft, not a translation.
+A language with no reviewer can ship after an agent verification pass: every string is translated, then checked against the English in a second pass. Those strings are **Translated**, not **Approved**, and anyone can correct them on Weblate.
 
 ## Rules
 
