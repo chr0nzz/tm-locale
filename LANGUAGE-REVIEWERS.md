@@ -15,6 +15,7 @@ Anyone can translate any language, at any time. Each language also has one named
 | Portuguese (Portugal) | pt | agent verified | | | 2026-09-29 |
 | Portuguese (Brazil) | pt-BR | agent verified | | | 2026-09-29 |
 | Danish | da | agent verified | | | 2026-09-30 |
+| Korean | ko | agent verified | | | 2026-11-06 |
 
 All of these are open for translation on [Weblate](https://hosted.weblate.org/projects/traefik-manager/web-app/) now, and any other language is added on request. None has a reviewer yet. Languages marked agent verified ship anyway, and a reviewer is still welcome for each.
 
